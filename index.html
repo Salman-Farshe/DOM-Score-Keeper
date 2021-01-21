@@ -10,12 +10,22 @@
 <body>
     
     <div class="container">
-        <h1 class="playerOne">0</h1>
-        <h1 class="playerTwo">0</h1>
+        <div class="players">
+            <div class="playerNo1">
+                <p>Player 01</p>
+                <h1 class="playerOne">0</h1>
+            </div>
+            <div class="playerNo2">
+                <p>Player 02</p>
+                <h1 class="playerTwo">0</h1>
+            </div>
+        </div>
         <p>playing to: <span class="numbers">5</span> (maximum)</p>
-        <input type="number" name="score" id="score">
-        <button class="one">player one</button>
-        <button class="two">player two</button>
+        <input class="myInput" type="number" name="score" id="score" placeholder="To Change Value">
+        <div class="scoreButton">
+            <button class="one">player one</button>
+            <button class="two">player two</button>
+        </div>
         <button class="reset">reset</button>
     </div>
 

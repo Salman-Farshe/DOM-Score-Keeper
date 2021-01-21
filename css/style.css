@@ -1,0 +1,29 @@
+body{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    background-color: #4747ca;
+}
+.container{
+    background-color: #8b8b8b;
+    max-width: 80vw;
+    min-height: 80vh;
+    margin: 0rem auto;
+    padding: 3rem;
+}
+.players, .scoreButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container .players h1{
+    text-align: center;
+}
+.container p, input[type="number"]{
+    text-align: center;
+}
+.reset, .myInput{
+    display: block;
+    margin: 5rem auto;
+}
